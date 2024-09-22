@@ -1,4 +1,5 @@
-@import 'bootstrap/dist/css/bootstrap.css';
+/* @import 'bootstrap/dist/css/bootstrap.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+DE+Grund:wght@100..400&display=swap');
 
 html,
 body {
@@ -18,5 +19,45 @@ a {
 }
 
 body {
-  background-color: #88effd;
+  background-color: peachpuff;
+}
+
+
+
+/* VARIABLE FONTS 
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 400 */
+
+.playwrite-de-grund-font {
+  font-family: "Playwrite DE Grund", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.playwrite-at-font {
+  font-family: "Playwrite AT", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+.greeting {
+  color: brown;
+  margin: 2rem 0;
+}
+
+
+
+
+/* IMAGES */
+.main-img {
+  display: flex;
+  justify-content: center;
+  border-top: 10px navy solid;
+  border-bottom: 10px magenta solid;
+  border-left: 10px mediumspringgreen solid;
+  border-right: 10px gold solid;
 }
